@@ -1,4 +1,4 @@
-C++实现简易版多进程、多线程并发服务器。
+C++实现简易多进程、多线程并发服务器，功能为小写字母转大写。
 
 编译时，需要分别将对应的server.cpp、client.cpp和wrap.cpp同时编译，生成可执行文件。
 例如：g++ process_server.cpp wrap.cpp -o server -Wall
